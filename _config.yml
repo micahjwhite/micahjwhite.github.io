@@ -1,11 +1,11 @@
 # Site settings
 author: Micah White
-title: 
+title: A New Path
 header-img: img/home-bg.png
 email: micahjwhite@gmail.com
 copyright_name: Micah White
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning to Code and Think Differently at Flatiron School
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: micahjwhite
 github_username:  micahjwhite
