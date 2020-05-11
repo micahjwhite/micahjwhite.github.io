@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hudson Valley Hikes: A CLI Data Gem with Ruby"
-date:       2020-05-11 13:26:03 +0000
+date:       2020-05-11 09:26:04 -0400
 permalink:  hudson_valley_hikes_a_cli_data_gem_with_ruby
 ---
 
@@ -24,7 +24,7 @@ I thought about how, from a user's perspective, the app would work and wrote dow
 
 Next I worked out my classes. There would be three:
 1. **CLI** - manage the user interface
-2. **Hike** - initialize hike objects and store the date for each hike instance
+2. **Hike** - initialize hike objects and store the data for each hike instance
 3. **Scraper** - gather hike data (name, location, number of reviews, and select reviews from hikers) from the TripAdvisor website 
 
 
@@ -121,7 +121,7 @@ What Hikers Say:“If you like trails it's a butifull trail we our whole family 
 * The user could then choose to see the list of hikes again in order to learn more about the other hikes, or the user could exit the program.
 * When the user finally exits the program, the program thanks the user for visiting Hudson Valley Hikes.
 
-Here's the full code for the Hike class:
+Here's the full code for the CLI class:
 
 ```
 require 'pry'
